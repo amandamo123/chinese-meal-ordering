@@ -6,4 +6,5 @@ import com.manmo.chinesemealordering.entity.User;
 public interface UserService {
     User register(UserRegisterDTO user);
 
+    User login(String username, String password);
 }
